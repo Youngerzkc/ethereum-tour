@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/leonzhao/ethereum-tour/server/service"
+	"github.com/bitschain/ethereum-tour/server/service"
 )
 
 func InitRoutes(router *gin.Engine, es *service.EtherService) {
